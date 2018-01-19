@@ -1,3 +1,4 @@
+
 Scenario Outline: Outlined given, when, thens
     Given there are <start> cucumbers
     When I eat <eat> cucumbers
@@ -5,4 +6,6 @@ Scenario Outline: Outlined given, when, thens
 
     Examples:
     | start | eat | left |
+    |  12   |  5  |  7   |
+    |  2    |  5  |  7   |
     |  12   |  5  |  7   |
